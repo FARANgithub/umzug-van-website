@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-void text-white font-body antialiased;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(124,58,237,0.18), transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(0,240,255,0.15), transparent 40%),
+    radial-gradient(circle at 50% 90%, rgba(255,43,214,0.12), transparent 45%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(0,240,255,0.35);
+}
+
+.section-title {
+  @apply font-display text-3xl md:text-5xl font-bold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-neon-cyan via-white to-neon-violet;
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+}
+
+.glass:hover {
+  @apply border-neon-cyan/40 shadow-glowSoft;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-void bg-gradient-to-r from-neon-cyan to-neon-violet shadow-glow hover:scale-105 transition-transform duration-300;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 px-8 py-3 rounded-full font-semibold text-white border border-white/20 hover:border-neon-cyan/60 hover:shadow-glowSoft transition-all duration-300;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #05060a; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#00f0ff,#7c3aed); border-radius: 8px; }
