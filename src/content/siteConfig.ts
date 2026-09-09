@@ -8,7 +8,7 @@ export const siteConfig = {
   companyName: 'NOVA UMZÜGE',
   slogan: 'Ihr Umzug. Neu gedacht.',
   subSlogan:
-    'Professioneller Umzugsservice mit eigenem Van – zuverlässig, sorgfältig, fair. Bereit für die Zukunft Ihres Umzugs.',
+    'Professioneller Umzugsservice mit eigenem Van – zuverlässig, sorgfältig, fair.',
 
   nav: [
     { label: 'Über uns', href: '#about' },
@@ -35,7 +35,7 @@ export const siteConfig = {
   about: {
     title: 'Über den Service',
     text:
-      'Ich biete einen persönlichen, zuverlässigen Ein-Personen-Umzugsservice mit meinem eigenen, hochmodernen Van. Jeder Umzug wird mit größter Sorgfalt geplant und durchgeführt – flexibel, transparent und zu fairen Preisen. Kein anonymes Großunternehmen, sondern echter, persönlicher Service auf Augenhöhe.',
+      'Ich biete einen persönlichen, zuverlässigen Ein-Personen-Umzugsservice mit meinem eigenen Van. Jeder Umzug wird mit größter Sorgfalt geplant und durchgeführt – flexibel, transparent und zu fairen Preisen. Kein anonymes Großunternehmen, sondern echter, persönlicher Service auf Augenhöhe.',
   },
 
   services: [
@@ -56,7 +56,7 @@ export const siteConfig = {
 
   van: {
     title: 'Der Van',
-    subtitle: 'Ihr hochmodernes Transportfahrzeug',
+    subtitle: 'Mein Transportfahrzeug',
     // Platzhalterbild – bitte durch eigenes Van-Foto ersetzen
     image: 'https://images.unsplash.com/photo-1601987177651-8edfe6a54a9f?q=80&w=1200&auto=format&fit=crop',
     specs: [
